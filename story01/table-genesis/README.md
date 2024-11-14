@@ -12,7 +12,7 @@ Every database begins with tables. Your journey starts by creating your very fir
 
 | Column Name      | Data Type     | Constraints                     |
 |-------------------|--------------|---------------------------------|
-| `student_id`      | INT          | PRIMARY KEY, AUTO_INCREMENT     |
+| `student_id`      | INT          | PRIMARY KEY     |
 | `first_name`      | VARCHAR(50)  | NOT NULL                        |
 | `last_name`       | VARCHAR(50)  | NOT NULL                        |
 | `email`           | VARCHAR(100) | NOT NULL, UNIQUE                |

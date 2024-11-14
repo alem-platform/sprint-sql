@@ -8,7 +8,7 @@ Time to bring your table to life by inserting some data. Let's populate your `st
 
 ### Instructions:
 
-- Insert the following records into the `students` table:
+- Insert the following records into the `students` table **right in this order**:
 
 | student_id | first_name | last_name      | email                           | enrollment_date |
 |------------|------------|----------------|---------------------------------|-----------------|
