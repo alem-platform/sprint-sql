@@ -132,7 +132,5 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
 - [SQL Tutorial by W3Schools](https://www.w3schools.com/sql/)
 - [SQLite Documentation](https://sqlite.org/docs.html)
-- [GitHub Guide: Hello World](https://guides.github.com/activities/hello-world/)
-- [SQLite Download Page](https://www.sqlite.org/download.html)
 
 ---
