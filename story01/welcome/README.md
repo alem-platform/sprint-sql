@@ -1,9 +1,5 @@
 # Welcome
 
-| Expected file    |
-| ---------------- |
-| `welcome.sql`    |
-
 Welcome to the SQL Sprint! 🎉
 
 We will start from the basics and learn what SQL is and how to use it to manage and query databases.
