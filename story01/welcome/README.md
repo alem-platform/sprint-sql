@@ -1,5 +1,9 @@
 # Welcome
 
+| Expected file       |
+| ------------------- |
+| `welcome.sql` |
+
 Welcome to the SQL Sprint! 🎉
 
 We will start from the basics and learn what SQL is and how to use it to manage and query databases.
@@ -85,18 +89,33 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
 ---
 
-## Working in Your Repository
+   ## Your first task
 
-For this bootcamp, you will work in the `sprint-sql` repository. Please follow these steps:
+   Let's create your first SQL program 
 
-1. **Create Your Repository:**
+   Let's create the first JS program and run it in browser environment
 
-   - For this sprint you will be working in a repository named `sprint-sql`
+   1. Create a js file named `welcome.sql `
 
-4. **Commit and Push Your Changes:**
+   ```sh
+   echo 'select "Hello SQL!";' > welcome.sql
+   ```
 
-   - Regularly commit your changes with clear messages.
-   - Push your commits to your repository to keep your work backed up and to share with instructors or collaborators.
+   2. Test your query
+
+   ```sh
+   sqlite3 welcome.db < welcome.sql
+   ```
+
+   3. You should see the message on your console
+
+   ```sh
+   Hello SQL!
+   ```
+
+   ## Working in Your Repository
+
+   For this bootcamp, you will work in the `sprint-sql` repository, create it and add your `welcome.sql` into it. This repository will store all your bootcamp solutions.
 
 ---
 
