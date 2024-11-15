@@ -1,12 +1,13 @@
 # ORDERING OF THE TASKS
 
 1. column-commander
-2. math-master
-3. where-warrior
-4. logic-launcher
-5. range-ranger
-6. pattern-pioneer
-7. sort-supreme
-8. string-sorcerer
-9. case-constructor
-10. text-pattern-pro
+2. calculation-wizard
+3. math-master
+4. where-warrior
+5. logic-launcher
+6. range-ranger
+7. pattern-pioneer
+8. sort-supreme
+9. string-sorcerer
+10. case-constructor
+11. text-pattern-pro
