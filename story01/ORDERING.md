@@ -7,7 +7,7 @@
 5. column-chooser
 6. alias-ace
 7. data-expansion
-8. calculated-concoctions
+8. fulls
 9. math-magician
 10. wheres-the-data
 11. logical-leap
