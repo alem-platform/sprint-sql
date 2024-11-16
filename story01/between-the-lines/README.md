@@ -16,24 +16,6 @@ Use `BETWEEN` and `IN` to specify ranges and specific values. Read between the l
 - [SQL BETWEEN Operator](https://www.w3schools.com/sql/sql_between.asp)
 - [SQL IN Operator](https://www.w3schools.com/sql/sql_in.asp)
 
-### Expected Results:
-
-**Part A Result:**
-
-| first_name | last_name    |
-|------------|--------------|
-| Mustafa    | Sarvarov     |
-| Arthur     | Kim          |
-| Elnar      | Moldabekov   |
-
-**Part B Result:**
-
-| first_name | last_name    |
-|------------|--------------|
-| Mustafa    | Sarvarov     |
-| Elnar      | Moldabekov   |
-| Edmond     | Dantes       |
-
 ### Tip
 
 - You can write several queries in one file

@@ -14,11 +14,4 @@ Hunt for data patterns using the `LIKE` operator. Become a pattern prowler!
 
 - [SQL LIKE Operator](https://www.w3schools.com/sql/sql_like.asp)
 
-### Expected Result:
-
-| first_name | last_name  |
-|------------|------------|
-| Mustafa    | Sarvarov   |
-| Charlotte  | Montgomery |
-
 ---

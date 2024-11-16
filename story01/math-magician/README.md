@@ -27,16 +27,4 @@ Perform mathematical operations in your queries. Let's add some magic by adjusti
 - [SQL ALTER TABLE Statement](https://www.w3schools.com/sql/sql_alter.asp)
 - [SQL UPDATE Statement](https://www.w3schools.com/sql/sql_update.asp)
 
-### Expected Result:
-
-| first_name | last_name    | test_score | adjusted_score |
-|------------|--------------|------------|----------------|
-| Mustafa    | Sarvarov     | 90         | 95             |
-| Arthur     | Kim          | 85         | 90             |
-| Elnar      | Moldabekov   | 88         | 93             |
-| Charlotte  | Montgomery   | 95         | 100            |
-| Edmond     | Dantes       | 70         | 75             |
-| Mercedes   | Herrera      | 75         | 80             |
-| Albert     | Einstein     | 99         | 104            |
-
 ---

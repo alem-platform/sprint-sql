@@ -1,8 +1,7 @@
 # Table Genesis
 
 | Expected file        |
-| -------------------- |
-| table-genesis.sql |
+| --------------------| t| `table-genesis.sql` |
 
 Every database begins with tables. Your journey starts by creating your very first table. Let's set the foundation for our data adventure!
 

@@ -14,8 +14,4 @@ Investigate and remove records with precision. Be a detective in data deletion.
 
 - [SQL DELETE Statement](https://www.w3schools.com/sql/sql_delete.asp)
 
-### Expected Result:
-
-After executing your delete statement, Edmond's record should no longer exist in the `students` table.
-
 ---

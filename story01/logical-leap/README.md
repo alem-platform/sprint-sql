@@ -14,12 +14,4 @@ Combine multiple conditions using logical operators. Take a leap into more compl
 
 - [SQL AND, OR, NOT Operators](https://www.w3schools.com/sql/sql_and_or.asp)
 
-### Expected Result:
-
-| first_name | last_name    | email                          |
-|------------|--------------|--------------------------------|
-| Elnar      | Moldabekov   | elnar.moldabekov@doodocs.net   |
-| Charlotte  | Montgomery   | charlotte.montgomery@gmail.com |
-| Albert     | Einstein     | albert.einstein@relativity.org |
-
 ---
