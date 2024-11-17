@@ -22,3 +22,10 @@ Using the `employees` table, find:
 | Michael    | Brown     | michael.b@company.com| Developer      |
 | Mark       | Johnson   | mark.j@company.com | Developer      |
 [... matching employees ...]
+
+### Resources:
+
+- [SQL LIKE Operator](https://www.w3schools.com/sql/sql_like.asp)
+- [SQL Wildcards](https://www.alphacodingskills.com/sqlite/sqlite-wildcards.php)
+
+---

@@ -21,3 +21,13 @@ Using the `employees` and `departments` tables, create queries to find:
 | John       | Smith     | Senior Engineer | 5000.00 | Engineering     |
 | James      | Wilson    | Senior Engineer | 5800.00 | Development     |
 [... more matching employees ...]
+
+
+### Resources:
+
+- [SQL Logical Operators](https://www.w3schools.com/sql/sql_and.asp)
+- [SQL IN Operator](https://www.w3schools.com/sql/sql_in.asp)
+- [SQL NOT Operator](https://www.w3schools.com/sql/sql_not.asp)
+- [SQL LIKE Operator](https://www.w3schools.com/sql/sql_like.asp)
+
+---

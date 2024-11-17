@@ -6,18 +6,6 @@
 
 Master the basics of column selection and manipulation.
 
-### employees
-| Column Name     | Data Type      | Constraints                 |
-|----------------|----------------|----------------------------|
-| `employee_id`   | INT           | PRIMARY KEY, AUTO_INCREMENT |
-| `first_name`    | VARCHAR(50)   | NOT NULL                    |
-| `last_name`     | VARCHAR(50)   | NOT NULL                    |
-| `email`         | VARCHAR(100)  | NOT NULL, UNIQUE            |
-| `salary`        | DECIMAL(10,2) | NOT NULL                    |
-| `department_id` | INT           | NOT NULL                    |
-| `position`      | VARCHAR(100)  | NOT NULL                    |
-| `hire_date`     | DATE         | NOT NULL                    |
-
 ### Instructions:
 
 Using the `employees` table create three separate SELECT statements:
@@ -47,3 +35,11 @@ Using the `employees` table create three separate SELECT statements:
 | Maria      | Garcia    | 6000.00        |
 | Michael    | Brown     | 4500.00        |
 [... rest of employees ...]
+
+
+### Resources:
+
+- [SQL Aliases](https://www.w3schools.com/sql/sql_alias.asp)
+- [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
+
+---

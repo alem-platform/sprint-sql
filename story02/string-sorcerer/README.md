@@ -4,21 +4,27 @@
 | ------------- |
 | `string-sorcerer.sql` |
 
-Master string manipulation functions.
+Master basic string manipulation functions.
 
 ### Instructions:
 
 Using the `employees` table, create a query that shows:
-1. Concatenated first_name and last_name with space as `full_name`
-2. Email domain (everything after '@') as `email_domain`
-3. Position in lowercase as `job_title`
-4. First 3 characters of department_id concatenated with last 3 characters of employee_id as `employee_code`
-5. First letter of first_name concatenated with full last_name as `short_name`
+1. Concatenated `first_name` and `last_name` with a space as `full_name`.
+2. The email domain (everything after `'@'`) as `email_domain`.
+3. Position in uppercase as `job_title`.
 
 ### Expected Result:
 
-| full_name      | email_domain | job_title       | employee_code | short_name   |
-|----------------|--------------|-----------------|---------------|--------------|
-| John Smith     | company.com  | senior engineer | 001_001      | JSmith      |
-| Maria Garcia   | company.com  | lead developer  | 002_002      | MGarcia     |
+| full_name      | email_domain | job_title       |
+|----------------|--------------|-----------------|
+| Emma Clark     | company.com  | SALES MANAGER   |
+| Liam Johnson   | company.com  | LEAD ENGINEER   |
+| Olivia Williams| company.com  | MARKETING SPECIALIST |
 [... rest of employees ...]
+
+
+### Resources:
+
+- [SQL String Functions](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)
+
+---

@@ -4,30 +4,31 @@
 | ------------- |
 | `case-constructor.sql` |
 
-Master CASE expressions for conditional text handling.
+Learn to apply conditional logic using CASE expressions.
 
 ### Instructions:
 
-Create a query using `employees` and `departments` tables showing:
-1. `full_name` (first_name + ' ' + last_name)
+Using the `employees` table, create a query showing:
+1. `full_name` (combine `first_name` and `last_name`).
 2. Salary category:
-   - Above 5500: 'High'
-   - 4500-5500: 'Medium'
-   - Below 4500: 'Entry'
-3. Experience level based on hire_date:
-   - Before 2022: 'Veteran'
-   - 2022: 'Intermediate'
-   - 2023 and after: 'Novice'
-4. Department size based on budget:
-   - Above 800000: 'Large'
-   - 500000-800000: 'Medium'
-   - Below 500000: 'Small'
+   - Above 75,000: 'High'
+   - 50,000–75,000: 'Medium'
+   - Below 50,000: 'Low'.
+3. Employee type based on `department_id`:
+   - Department 1–5: 'Core Team'
+   - Department 6–10: 'Support Team'.
 
 ### Expected Result:
 
-| full_name      | salary_category | experience_level | department_size |
-|----------------|-----------------|------------------|-----------------|
-| John Smith     | Medium          | Veteran          | Large          |
-| Maria Garcia   | High            | Veteran          | Medium         |
-| Michael Brown  | Medium          | Intermediate     | Large          |
+| full_name      | salary_category | employee_type |
+|----------------|-----------------|---------------|
+| Emma Clark     | High            | Core Team     |
+| Liam Johnson   | High            | Core Team     |
+| Olivia Williams| Medium          | Support Team  |
 [... rest of employees ...]
+
+### Resources:
+
+- [SQL CASE Expression](https://www.w3schools.com/sql/sql_case.asp)
+
+---

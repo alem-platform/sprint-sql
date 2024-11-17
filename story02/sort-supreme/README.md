@@ -4,28 +4,24 @@
 | ------------- |
 | `sort-supreme.sql` |
 
-Master various sorting techniques using ORDER BY.
+Elevate your sorting skills by mastering complex ORDER BY clauses.
 
 ### Instructions:
 
-Create these queries using `employees` and `departments` tables:
-1. List all employees ordered by salary DESC, then by last_name ASC
-2. List departments ordered by budget DESC, showing department name and budget
-3. List employees ordered by hire_date DESC, showing only those hired in 2023
-4. List all products ordered by rating DESC, then by price ASC
+Using the `employees`, `departments`, and `products` tables, perform the following queries:
 
-### Expected Result:
+1. List all employees showing `first_name`, `last_name`, `salary`, and `department_id`, ordered by `department_id` ASC, `salary` DESC, and `last_name` ASC.
 
-Query 1:
-| first_name | last_name | salary  |
-|------------|-----------|---------|
-| Maria      | Garcia    | 6000.00 |
-| James      | Wilson    | 5800.00 |
-[... rest in salary DESC, last_name ASC order ...]
+2. List departments showing `name`, `budget`, and `number_of_employees`, ordered by `number_of_employees` DESC, then by `name` ASC.
+   - Calculate `number_of_employees` by counting employees in each department.
 
-Query 2:
-| name        | budget     |
-|-------------|------------|
-| Engineering | 1000000.00 |
-| Development | 800000.00  |
-[... rest in budget DESC order ...]
+3. List products showing `name`, `price`, `rating`, and `quantity`, ordered by `rating` DESC, `price` ASC, and `quantity` DESC.
+
+4. List employees hired in the last 5 years, showing `first_name`, `last_name`, `hire_date`, and `years_of_service`, ordered by `years_of_service` DESC, then by `hire_date` ASC.
+   - Calculate `years_of_service` as the number of years since `hire_date`, rounded down to the nearest whole number.
+
+### Resources:
+
+- [SQL String Operations](https://www.sqlitetutorial.net/sqlite-string-functions/)
+
+---

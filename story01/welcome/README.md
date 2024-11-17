@@ -18,14 +18,13 @@ SQL (Structured Query Language) is a standard language for accessing and manipul
 
 ### For `story01`
 
-For the first part of this sprint, you will work with an **empty database**. You will create tables, insert data, and perform basic queries.
+For the `story01` of this sprint, you will work with an **empty database**. You will create tables, insert data, and perform basic queries.
 
 **Instructions:**
 
 1. **Setting Up Your Environment:**
 
-   - You will be working with **SQLite**, a lightweight, file-based database that's easy to use and commonly installed on most machines.
-   - If you don't have SQLite installed, you can download it from the [SQLite Download Page](https://www.sqlite.org/download.html).
+   - You will be working with **SQLite**, a lightweight, file-based database that's easy to use.
 
 2. **Create a New SQLite Database:**
 
@@ -38,6 +37,8 @@ For the first part of this sprint, you will work with an **empty database**. You
      ```
 
    - This command opens the SQLite prompt connected to your new database.
+
+   > Quick tip: enter `.help` to list all available commands (for example, `.exit` - is to exit the database prompt)
 
 3. **Begin Working on Tasks:**
 
@@ -93,12 +94,10 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
    Let's create your first SQL program 
 
-   Let's create the first JS program and run it in browser environment
-
    1. Create a js file named `welcome.sql `
 
    ```sh
-   echo 'select "Hello SQL!";' > welcome.sql
+   echo 'SELECT "Hello SQL!";' > welcome.sql
    ```
 
    2. Test your query
@@ -115,7 +114,7 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
    ## Working in Your Repository
 
-   For this bootcamp, you will work in the `sprint-sql` repository, create it and add your `welcome.sql` into it. This repository will store all your bootcamp solutions.
+   For this bootcamp, you will work in the `sprint-sql` repository, create it and add your `welcome.sql` into it. This repository will store all your sprint solutions.
 
 ---
 

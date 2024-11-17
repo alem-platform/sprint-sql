@@ -23,3 +23,16 @@ Using the `products` table, create a query showing:
 | Product A | 5.48          | 25            | 24          | 90.0           | 749.70      |
 | Product B | 4.24          | 33            | 32          | 96.0           | 585.00      |
 [... rest of products ...]
+
+
+### Notes:
+
+- If your local SQLite complains about not supporting mathematical functions, try testing your query using Go with the SQLite package and the following `go build` option: `-tags "sqlite_math_functions"`.
+
+### Resources:
+
+- [SQL Mathematical Functions](https://www.w3schools.com/sql/sql_ref_sqlserver_math.asp)
+- [SQL Aggregate Functions](https://www.w3schools.com/sql/sql_functions.asp)
+- [SQLite Mathematical Functions](https://www.sqlite.org/lang_mathfunc.html)
+
+---

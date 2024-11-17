@@ -21,3 +21,10 @@ For Query 1:
 |------------|-----------|---------|
 | Maria      | Garcia    | 6000.00 |
 | James      | Wilson    | 5800.00 |
+
+### Resources:
+
+- [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
+- [SQL Comparison Operators](https://www.w3schools.com/sql/sql_operators.asp)
+
+---
