@@ -94,16 +94,16 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
    Let's create your first SQL program 
 
-   1. Create a js file named `hello_sql.sql `
+   1. Create a js file named `hello-sql.sql `
 
    ```sh
-   echo 'SELECT "Hello SQL!";' > hello_sql.sql
+   echo 'SELECT "Hello SQL!";' > hello-sql.sql
    ```
 
    2. Test your query
 
    ```sh
-   sqlite3 welcome.db < hello_sql.sql
+   sqlite3 welcome.db < hello-sql.sql
    ```
 
    3. You should see the message on your console
@@ -114,7 +114,7 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
    ## Working in Your Repository
 
-   For this bootcamp, you will work in the `sprint-sql` repository, create it and add your `hello_sql.sql` into it. This repository will store all your sprint solutions.
+   For this bootcamp, you will work in the `sprint-sql` repository, create it and add your `hello-sql.sql` into it. This repository will store all your sprint solutions.
 
 ---
 
