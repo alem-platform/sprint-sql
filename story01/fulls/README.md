@@ -12,6 +12,6 @@ Create new insights by calculating data within your queries. Let's concoct a ful
 
 ### Resources:
 
-- [SQL Concatenation](https://www.w3schools.com/sql/sql_ref_concat.asp)
+- [SQLite Concatenation](https://www.sqlitetutorial.net/sqlite-string-functions/sqlite-concat/)
 
 ---
