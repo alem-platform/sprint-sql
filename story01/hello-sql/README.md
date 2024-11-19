@@ -59,12 +59,11 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
 1. **Accessing the Prefilled Databases:**
 
-   - The prefilled SQLite database files for each story are available on GitHub.
-   - Visit the repository to download the database files
+   - The prefilled SQLite database files for each story are available **[here](https://github.com/alem-platform/sprint-sql/blob/master/assets)**
 
 2. **Download the Database Files:**
 
-   - Navigate to the specific database file you need (e.g., `story02.db`).
+   - Navigate to the specific database file you need (e.g., `week01.db`).
    - Click on the file and then click the **Download** button to save it to your local machine.
    - Save the database file in the directory where you will be working on your SQL tasks.
 
@@ -74,13 +73,13 @@ Starting with `story02`, you will work with **prefilled databases** that contain
    - You can interact with the database using the SQLite command line:
 
      ```sh
-     sqlite3 story02.db
+     sqlite3 week01.db
      ```
 
    - To execute your SQL scripts against the database:
 
      ```sh
-     sqlite3 story02.db < your_task_file.sql
+     sqlite3 week01.db < your_task_file.sql
      ```
 
 4. **Do Not Modify the Database Structure:**
