@@ -1,3 +1,43 @@
+# Prefilled Database
+
+Starting with this story, you will use prefilled database, as explained in the `hello-sql` task.
+
+Here is the schema of `week01.db`:
+
+### Employees Table
+
+| Column Name   | Data Type     | Constraints                |
+|---------------|---------------|----------------------------|
+| employee_id   | INTEGER       | PRIMARY KEY AUTOINCREMENT  |
+| first_name    | VARCHAR(50)   | NOT NULL                   |
+| last_name     | VARCHAR(50)   | NOT NULL                   |
+| email         | VARCHAR(100)  | NOT NULL UNIQUE            |
+| salary        | DECIMAL(10,2) | NOT NULL                   |
+| department_id | INT           | NOT NULL                   |
+| position      | VARCHAR(100)  | NOT NULL                   |
+| hire_date     | DATE          | NOT NULL                   |
+
+### Departments Table
+
+| Column Name  | Data Type     | Constraints               |
+|--------------|---------------|---------------------------|
+| department_id| INTEGER       | PRIMARY KEY AUTOINCREMENT |
+| name         | VARCHAR(50)   | NOT NULL UNIQUE           |
+| location     | VARCHAR(100)  | NOT NULL                  |
+| budget       | DECIMAL(15,2) | NOT NULL                  |
+
+### Products Table
+
+| Column Name | Data Type    | Constraints                |
+|-------------|--------------|----------------------------|
+| product_id  | INTEGER      | PRIMARY KEY AUTOINCREMENT  |
+| name        | VARCHAR(100) | NOT NULL                   |
+| price       | DECIMAL(10,2)| NOT NULL                   |
+| quantity    | INT          | NOT NULL                   |
+| rating      | DECIMAL(3,2) | NOT NULL                   |
+
+---
+
 # Column Commander
 
 | Expected file |
