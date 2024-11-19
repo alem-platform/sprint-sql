@@ -12,6 +12,6 @@ Using the `employees` table, write a query to find departments where the number 
 
 ## Resources:
 
-- [SQL HAVING Clause - W3Schools](https://www.w3schools.com/sql/sql_having.asp)
-- [Combining Conditions in HAVING Clause - Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/SELECT.html#GUID-38D0265A-95A8-4BA6-A4BB-246555F6F28D)
-- [SQL GROUP BY and HAVING Clauses - SQL Tutorial](https://www.sqltutorial.org/sql-having/)
+- [SQLite HAVING Clause](https://www.sqlite.org/lang_select.html#having-clause)
+- [SQLite GROUP BY Clause](https://www.sqlite.org/lang_select.html#groupby)
+

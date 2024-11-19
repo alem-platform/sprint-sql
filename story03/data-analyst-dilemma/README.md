@@ -17,7 +17,7 @@ Retrieve `rating`, total inventory value as `total_inventory_value`, and average
 
 ## Resources:
 
-- [SQL Aggregate Functions](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
-- [Subqueries in HAVING Clause](https://www.sqltutorial.org/sql-having/)
-- [SQL Arithmetic Operators](https://www.w3schools.com/sql/sql_operators.asp)
-- [Using Subqueries in SQL](https://www.datacamp.com/community/tutorials/sql-subqueries-tutorial)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
+- [SQLite HAVING Clause](https://www.sqlite.org/lang_select.html#the_having_clause)
+- [SQLite Arithmetic Operators](https://www.sqlite.org/lang_expr.html#operators)
+- [SQLite Subqueries](https://www.sqlite.org/lang_select.html#subqueries)

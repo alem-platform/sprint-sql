@@ -18,7 +18,7 @@ Retrieve `department_id`, average salary as `average_salary`, and maximum salary
 
 ## Resources:
 
-- [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
-- [SQL GROUP BY Statement](https://www.w3schools.com/sql/sql_groupby.asp)
-- [SQL HAVING Clause](https://www.w3schools.com/sql/sql_having.asp)
-- [SQL MAX() Function](https://www.w3schools.com/sql/sql_min_max.asp)
+- [SQLite WHERE Clause](https://www.sqlite.org/lang_expr.html#the_where_clause)
+- [SQLite GROUP BY Clause](https://www.sqlite.org/lang_select.html#groupby)
+- [SQLite HAVING Clause](https://www.sqlite.org/lang_select.html#the_having_clause)
+- [SQLite MAX() Function](https://www.sqlite.org/lang_aggfunc.html#max)

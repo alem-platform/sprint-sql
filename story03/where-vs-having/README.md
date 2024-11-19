@@ -1,4 +1,4 @@
-## 11. Where vs Having Showdown
+# Where vs Having Showdown
 
 | Expected file |
 | ------------- |
@@ -12,7 +12,6 @@ Using the `employees` table, write a query to find departments that have an aver
 
 ## Resources:
 
-- [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
-- [SQL HAVING Clause](https://www.w3schools.com/sql/sql_having.asp)
-- [Difference Between WHERE and HAVING Clause in SQL - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-where-and-having-clause-in-sql/)
-- [Filtering Data with WHERE and HAVING - SQL Tutorial](https://www.sqltutorial.org/sql-having/)
+- [SQLite WHERE Clause](https://www.sqlite.org/lang_expr.html#the_where_clause)
+- [SQLite HAVING Clause](https://www.sqlite.org/lang_select.html#the_having_clause)
+- [Difference Between WHERE and HAVING Clause in SQL](https://www.geeksforgeeks.org/difference-between-where-and-having-clause-in-sql/)

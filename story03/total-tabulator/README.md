@@ -8,11 +8,11 @@ Perform table-wide calculations.
 
 ## Instructions:
 
-Using the `products` table, write a query to calculate the total value of all products in stock. The total value is the sum of `price * quantity` for all products.
+Using the `products` table, write a query to calculate the total value of all products in stock for each rating. Retrieve `rating` and the sum of the product of price and quantity as `total_value`, ordered by `total_value` in descending order.
 
 ## Resources:
 
-- [SQL Arithmetic Operators](https://www.w3schools.com/sql/sql_operators.asp)
-- [SQL SUM() Function](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
-- [Expressions in SELECT Statements - Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Expressions.html)
-- [MySQL Operator Precedence](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)
+- [SQLite SUM() Function](https://www.sqlite.org/lang_aggfunc.html#sum)
+- [SQLite GROUP BY Clause](https://www.sqlite.org/lang_select.html#groupby)
+- [SQLite ORDER BY Clause](https://www.sqlite.org/lang_select.html#orderby)
+

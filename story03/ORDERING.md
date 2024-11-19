@@ -11,5 +11,5 @@
 9. total-tabulator
 10. having-havoc
 11. where-vs-having
-12. combined-conditions
+12. all-in-one
 13. data-analyst-dilemma
