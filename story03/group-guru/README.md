@@ -12,4 +12,4 @@ Using the `employees` table, write a query to find the total salary expenditure 
 
 ## Resources:
 
-- [SQLite GROUP BY Clause - SQLite Documentation](https://www.sqlite.org/lang_select.html#groupby)
+- [SQLite GROUP BY Clause](https://www.sqlite.org/lang_select.html#groupby)

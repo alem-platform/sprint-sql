@@ -12,6 +12,5 @@ Using the `employees` and `departments` tables, write a query to find the first 
 
 ## Resources:
 
-- [SQL Subqueries](https://www.w3schools.com/sql/sql_subqueries.asp)
-- [Subqueries in the WHERE Clause - Oracle Documentation](https://docs.oracle.com/database/121/SQLRF/statements_10002.htm#SQLRF52355)
-- [MySQL Subquery Syntax](https://dev.mysql.com/doc/refman/8.0/en/subqueries.html)
+- [SQLite Subqueries](https://www.sqlite.org/lang_select.html#subqueries)
+- [SQLite WHERE Clause](https://www.sqlite.org/lang_expr.html#where-clause)

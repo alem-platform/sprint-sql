@@ -1,4 +1,3 @@
-
 # Anything And Everything
 
 | Expected file |
@@ -13,6 +12,6 @@ Using the `products` table, write a query to find products that have a price hig
 
 ## Resources:
 
-- [SQL ANY and ALL Operators](https://www.w3schools.com/sql/sql_any_all.asp)
-- [ANY and ALL Operators - Oracle Documentation](https://docs.oracle.com/database/121/SQLRF/conditions014.htm#SQLRF52152)
-- [MySQL ANY Value Comparisons](https://dev.mysql.com/doc/refman/8.0/en/any-in-some-subqueries.html)
+- [SQLite ANY/ALL operators](https://www.sqlite.org/lang_expr.html#compound_select)
+- [SQLite subqueries](https://www.sqlite.org/lang_select.html#subqueries)
+- [SQLite comparison operators](https://www.sqlite.org/lang_expr.html#binaryops)

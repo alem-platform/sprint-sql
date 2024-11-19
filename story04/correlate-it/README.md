@@ -12,8 +12,8 @@ Using the `employees` table, write a query to find employees whose salary is abo
 
 ## Resources:
 
-- [Correlated Subqueries](https://www.w3schools.com/sql/sql_subqueries.asp)
-- [Correlated Subqueries - Oracle Documentation](https://docs.oracle.com/database/121/SQLRF/statements_10002.htm#SQLRF52366)
-- [MySQL Correlated Subqueries](https://dev.mysql.com/doc/refman/8.0/en/correlated-subqueries.html)
+- [SQLite Subqueries](https://www.sqlite.org/lang_select.html#subqueries)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
+- [SQLite Comparison Operators](https://www.sqlite.org/lang_expr.html#binaryops)
 
 ---

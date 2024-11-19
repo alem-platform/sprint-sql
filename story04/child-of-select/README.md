@@ -12,6 +12,6 @@ Using the `employees` table, write a query to retrieve `first_name`, `last_name`
 
 ## Resources:
 
-- [Subqueries in SELECT Statement](https://www.w3schools.com/sql/sql_subqueries.asp)
-- [Scalar Subquery Expressions - Oracle Documentation](https://docs.oracle.com/database/121/SQLRF/expressions004.htm#SQLRF51180)
-- [MySQL Subqueries in the SELECT List](https://dev.mysql.com/doc/refman/8.0/en/subqueries-in-select-list.html)
+- [SQLite Subqueries](https://www.sqlite.org/lang_select.html#subqueries)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
+- [SQLite Expressions](https://www.sqlite.org/lang_expr.html)
