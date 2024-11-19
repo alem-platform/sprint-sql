@@ -10,7 +10,7 @@ Perform advanced aggregate calculations and analyze data trends.
 
 Using the `products` table, write a query to find the rating groups where:
 
-- The total inventory value (sum of `price * quantity`) is greater than 50,000.
+- The total inventory value (sum of `price * quantity`) is greater than 20,000.
 - The group's average rating is less than the overall average rating of all products.
 
 Retrieve `rating`, total inventory value as `total_inventory_value`, and average rating as `average_rating`, ordered by `total_inventory_value` descending.

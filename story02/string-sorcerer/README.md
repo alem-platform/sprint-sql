@@ -13,16 +13,6 @@ Using the `employees` table, create a query that shows:
 2. The email domain (everything after `'@'`) as `email_domain`.
 3. Position in uppercase as `job_title`.
 
-### Expected Result:
-
-| full_name      | email_domain | job_title       |
-|----------------|--------------|-----------------|
-| Emma Clark     | company.com  | SALES MANAGER   |
-| Liam Johnson   | company.com  | LEAD ENGINEER   |
-| Olivia Williams| company.com  | MARKETING SPECIALIST |
-[... rest of employees ...]
-
-
 ### Resources:
 
 - [SQL String Functions](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)

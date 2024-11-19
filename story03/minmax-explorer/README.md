@@ -4,8 +4,6 @@
 | ------------- |
 | `minmax-explorer.sql` |
 
-Use the `MIN` and `MAX` functions to find the lowest and highest prices among all products.
-
 ## Instructions:
 
 Using the `products` table, write a query to find:

@@ -4,13 +4,11 @@
 | ------------- |
 | `unique-union.sql` |
 
-Find unique combinations of values using `DISTINCT`.
-
 ## Instructions:
 
 Using the `employees` table, write a query to find all unique combinations of `department_id` and `position`. Retrieve `department_id` and `position`.
 
-Order the results by ascending order first by `department_id` and then by position columns.
+Order the results by ascending order first by `department_id` and then by `position` columns.
 
 ## Resources:
 

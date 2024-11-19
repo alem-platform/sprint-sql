@@ -8,7 +8,7 @@ Use the `AVG` function to calculate averages.
 
 ## Instructions:
 
-Using the `employees` table, write a query to find the average salary of all employees.
+Using the `employees` table, write a query to find the average salary of all employees and how it as `average_salary`
 
 ## Resources:
 

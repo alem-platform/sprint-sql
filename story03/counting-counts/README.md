@@ -4,11 +4,9 @@
 | ------------- |
 | `counting-counts.sql` |
 
-Use the `COUNT` function to aggregate data.
-
 ## Instructions:
 
-Using the `employees` table, write a query to find the total number of employees in the company.
+Using the `employees` table, write a query to find the total number of employees in the company. Show it as`total_employees`
 
 ## Resources:
 

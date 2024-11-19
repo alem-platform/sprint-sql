@@ -14,14 +14,7 @@ Using the `employees` table, find:
 3. Employees whose email contains '.w'
 4. Employees whose position starts with 'Senior'
 
-### Expected Result:
-
-| first_name | last_name | email              | position        |
-|------------|-----------|-------------------|-----------------|
-| Maria      | Garcia    | maria.g@company.com| Lead Developer  |
-| Michael    | Brown     | michael.b@company.com| Developer      |
-| Mark       | Johnson   | mark.j@company.com | Developer      |
-[... matching employees ...]
+**In all queries, select the employee's first name, last name, position and email**
 
 ### Resources:
 
