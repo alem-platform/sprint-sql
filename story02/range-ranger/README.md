@@ -14,7 +14,7 @@ Using the `employees` table, create these queries:
 3. Find employees hired **BETWEEN** '2014-01-01' and '2019-12-31'
 4. Find employees with positions **IN**: 'Warehouse Manager', 'Senior Researcher', 'Lead Engineer'
 
-**In all queries, select the employee's first name, last name, and position**
+**In all queries, select the employee's first name, last name, salary, position and hire date**
 
 ### Resources:
 

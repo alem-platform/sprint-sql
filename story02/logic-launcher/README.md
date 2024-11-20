@@ -9,10 +9,12 @@ Apply logical operators to create complex conditions.
 ### Instructions:
 
 Using the `employees` and `departments` tables, create queries to find:
-1. Engineers (any position containing 'Engineer') with salary > 5000 
-2. Employees in Engineering OR Development departments (use department names)
-3. Employees NOT in Analytics department who make more than 5000
-4. Developers hired in 2023 with salary less than 5000
+1. Engineers (any position containing 'Engineer') with salary > 50000 
+2. Employees in Human Resources OR Finance departments (use department names)
+3. Employees NOT in Logistics department who make more than 50000
+4. Analysts hired in between `2012-01-01` and `2016-12-31` with salary less than `70000`
+
+**In all queries, select the employee's first name, last name, and position**
 
 ### Resources:
 
