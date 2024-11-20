@@ -8,25 +8,24 @@ Enhance your ability to combine pattern matching with string operations and cond
 
 ### Instructions:
 
-Using the `employees`, `departments`, and `products` tables, create a query that:
+Using the `employees`, `departments`, and `products` tables, create a queries that:
 
 1. Displays `department_display` as:
    - If `budget` is above 1,000,000, display `name` in uppercase and append ' - LARGE BUDGET'.
    - If `budget` is between 500,000 and 1,000,000, display `name` in proper case (first letter uppercase) and append ' - Medium Budget'.
    - If `budget` is below 500,000, display `name` in lowercase and append ' - small budget'.
 
-2. Lists all employees who:
+2. Displays `employee_info` where each empolyee:
    - Have a `first_name` where the second letter is 'a' or 'e'.
-   - Have a `last_name` that starts and ends with the same letter.
    - Have a `position` that ends with 'Manager' or 'Director'.
-
-3. For these employees, format the output as:
+   
+   For these employees, format the output as:
    - `employee_info`: "<LAST_NAME, first_name> - POSITION in DEPARTMENT_NAME"
 
-4. Additionally, for products, list products where:
+3. Displays `product_summary` where:
    - `name` contains exactly two words.
    - `rating` is higher than the average rating of all products.
-   - Display `product_summary` as: "Product: NAME | Price: PRICE | Rating: RATING"
+   - Format `product_summary` as: "Product: *NAME* | Price: *PRICE* | Rating: *RATING*"
 
 ### Resources:
 
