@@ -6,4 +6,4 @@
 4. anything-and-everything
 5. child-of-select
 6. child-in-from
-7. correlate-it
+7. salary-analysis
