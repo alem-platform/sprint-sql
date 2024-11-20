@@ -4,8 +4,6 @@
 | ------------- |
 | `child-of-select.sql` |
 
-Use a subquery in the `SELECT` clause.
-
 ## Instructions:
 
 Using the `employees` table, write a query to retrieve `first_name`, `last_name`, and the average salary of their department as `department_avg_salary`.

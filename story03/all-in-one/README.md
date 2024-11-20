@@ -14,7 +14,7 @@ Using the `employees` table, write a query to find departments where:
 - The maximum salary is less than 120,000.
 - Only consider employees in positions that contain the word **'Engineer'**.
 
-Retrieve `department_id`, average salary as `average_salary`, and maximum salary as `max_salary`, ordered by `department_id`.
+Retrieve `department_id`, average salary as `average_salary`, and maximum salary as `max_salary`, ordered by `max_salary` in a descending order.
 
 ## Resources:
 

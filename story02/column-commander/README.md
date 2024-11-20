@@ -50,7 +50,7 @@ Master the basics of column selection and manipulation.
 
 Using the `employees` table create three separate SELECT statements:
 1. Select only `first_name` and `last_name` for employees in department_id 1
-2. Select `email` as `contact_info` and `position` as `job_title` for employees who are "Lead Engineer"
+2. Select `email` as `contact_info` and `position` as `job_title` for employees who are "Senior Engineer"
 3. Select `first_name`, `last_name`, and `salary`, but display `first_name` as `given_name` and `salary` as `monthly_income`
 
 ### Resources:
