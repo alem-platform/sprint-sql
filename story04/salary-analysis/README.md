@@ -11,6 +11,7 @@ Write a SQL query that finds "high-performing" employees based on the following 
 1. Their `salary` is above their department's average `salary`
 2. They work in a department with above-average budget
 3. Their `salary` is higher than the company-wide average `salary`
+4. Order the results by salary in descending order
 
 ### Return these columns:
 - `first_name`
