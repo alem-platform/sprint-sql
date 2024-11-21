@@ -14,7 +14,7 @@ Using the `employees` and `departments` tables, create queries to find:
 3. Employees NOT in Logistics department who make more than 50000
 4. Analysts hired in between `2012-01-01` and `2016-12-31` with salary less than `70000`
 
-**In all queries, select the employee's first name, last name, and position**
+**In all queries, select the employee's first name, last name, position, salary, department_id and hire_date**
 
 ### Resources:
 
