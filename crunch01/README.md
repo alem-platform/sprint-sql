@@ -8,7 +8,6 @@ Remember, challenges may arise, but they are opportunities for growth. Embrace t
 
 Good luck. This project is a significant milestone. Learn from it, and let it propel you forward.
 
-
 ### Project Brief
 
 You are tasked with creating a **Library Management System** for a local library. The library wants to digitize its catalog and keep track of books, patrons, and borrowing activities.
@@ -28,8 +27,8 @@ You are tasked with creating a **Library Management System** for a local library
 - **Create an Entity-Relationship Diagram (ERD):**
   - **Purpose:** To visually represent the database structure and the relationships between different entities.
   - **Requirements:**
-    - Identify at least **four** entities relevant to a library system. Examples include `Books`, `Patrons`, `Loans`, `Authors`.
-    - Define attributes for each entity (minimum of four attributes per entity).
+    - Identify at least **five** entities relevant to a library system. Examples include `Books`, `Patrons`, `Loans`, `Authors`, `Genres`.
+    - Define attributes for each entity (minimum of five attributes per entity).
     - Determine primary keys for each entity.
     - Even though you haven't learned about foreign keys yet, think about how the entities are related and how you might represent those relationships.
   - **Deliverable:** A clear ERD diagram. You can use tools like [draw.io](https://app.diagrams.net/) or hand-draw it and scan it.
@@ -47,14 +46,15 @@ You are tasked with creating a **Library Management System** for a local library
     - Implement basic constraints like `PRIMARY KEY` and `NOT NULL`.
     - Since you haven't covered foreign keys yet, you don't need to include them.
   - **Entities Examples:**
-    - `Books` (e.g., `book_id`, `title`, `author_id`, `genre`, `year_published`)
+    - `Books` (e.g., `book_id`, `title`, `author_id`, `genre_id`, `year_published`)
     - `Patrons` (e.g., `patron_id`, `first_name`, `last_name`, `email`, `phone_number`)
     - `Loans` (e.g., `loan_id`, `book_id`, `patron_id`, `loan_date`, `return_date`)
     - `Authors` (e.g., `author_id`, `first_name`, `last_name`, `birth_year`)
+    - `Genres` (e.g., `genre_id`, `name`, `description`)
 
 - **Deliverable:** SQL script (`create_tables.sql`) with all `CREATE TABLE` statements.
 
-###  Data Insertion
+### Data Insertion
 
 - **Populate the Tables:**
   - Insert at least **10 records** into each table.
@@ -64,7 +64,7 @@ You are tasked with creating a **Library Management System** for a local library
 
 - **Deliverable:** SQL script (`insert_data.sql`) with all `INSERT INTO` statements.
 
-###  Data Retrieval and Analysis
+### Data Retrieval and Analysis
 
 Based on the topics covered in **Week 1**, perform the following tasks:
 
@@ -109,33 +109,32 @@ Based on the topics covered in **Week 1**, perform the following tasks:
 11. **Single Value Subqueries:**
     - Find the book(s) with the highest number of loans.
 
-12. **Multi-row Subqueries:**
-    - List all patrons who have borrowed books in the 'Science Fiction' genre.
+12. **Correlated Subqueries:**
+    - **Task:** Find all patrons who have borrowed **every book** in the 'Science Fiction' genre.
 
-13. **Subquery Placement:**
-    - Display each patron's name along with the total number of books they have borrowed.
+13. **Nested Aggregates:**
+    - **Task:** For each author, display their name and the **average age** of their books.
 
-14. **Books Not Loaned:**
-    - Find all books that have never been loaned out.
+14. **Complex Filtering:**
+    - **Task:** Find all books that have **never been borrowed** and were published **before the average publication year** of all books.
 
-15. **Active Loans:**
-    - List all currently active loans (where `return_date` is NULL or in the future).
+15. **Conditional Aggregation:**
+    - **Task:** For each patron, display their name and the **total number of books borrowed**, but only include books published after 2010.
 
-16. **Patron Loan History:**
-    - For a given patron (e.g., `patron_id` = 1), display all books they have borrowed.
+16. **Subqueries in SELECT Clause:**
+    - **Task:** List all books along with the **number of times each has been borrowed**.
 
-17. **Most Popular Genre:**
-    - Determine which genre has the most books.
+17. **Advanced Pattern Matching:**
+    - **Task:** Find all authors whose last name contains the letter sequence 'son' and who have written at least one book with 'Data' in the title.
 
-18. **Recent Additions:**
-    - List all books added to the library in the last month.
+18. **Date Calculations:**
+    - **Task:** Identify all loans that are **overdue by more than 30 days**.
 
-19. **Overdue Books:**
-    - Find all loans where the return date is past due.
+19. **Combined Aggregate Functions:**
+    - **Task:** Find the genre with the **highest average book age**.
 
-20. **Authors Without Books:**
-    - Identify any authors in the `Authors` table who do not have books in the `Books` table.
-
+20. **Nested Subqueries and Aggregation:**
+    - **Task:** List all patrons who have borrowed **more books than the average number of books borrowed** by all patrons.
 
 ## Bonus Tasks
 
@@ -162,22 +161,21 @@ Based on the topics covered in **Week 1**, perform the following tasks:
 
 ### ERD
 
-- Submit your ERD as image file
+- Submit your ERD as an image file.
 
 ### SQL Scripts
 
 - `create_tables.sql` with your table creation statements
 - `insert_data.sql` with your data insertion statements
 - `queries.sql` containing all your SQL queries for the tasks above
-    - Include comments to indicate which task each query corresponds to
+  - Include comments to indicate which task each query corresponds to
 
 ### Query Results
 
-- Provide a document (results.txt) containing the output results of your queries
+- Provide a document (`results.txt`) containing the output results of your queries
 - Ensure results are well-formatted and readable
 
-
-## Assessment criteria
+## Assessment Criteria
 
 Here's what your reviewers will be looking at:
 
@@ -185,14 +183,14 @@ Here's what your reviewers will be looking at:
 
 #### Database Design
 
-  - The ERD accurately represents entities and their relationships.
-  - The database schema correctly implements the designed ERD.
-  - Tables are created with appropriate data types and constraints.
+- The ERD accurately represents entities and their relationships.
+- The database schema correctly implements the designed ERD.
+- Tables are created with appropriate data types and constraints.
 
 #### Data Population
 
-  - Tables are populated with realistic and consistent data.
-  - Relationships between entities are logically maintained.
+- Tables are populated with realistic and consistent data.
+- Relationships between entities are logically maintained.
 
 #### SQL Queries
 
@@ -204,28 +202,28 @@ Here's what your reviewers will be looking at:
 
 #### Readability
 
-  - SQL scripts are well-organized and easy to follow.
-  - Clear and descriptive comments and naming conventions are used.
+- SQL scripts are well-organized and easy to follow.
+- Clear and descriptive comments and naming conventions are used.
 
 #### Efficiency
 
-  - Queries are optimized and avoid unnecessary computations.
+- Queries are optimized and avoid unnecessary computations.
 
 #### Modularity
 
-  - Code is modular with distinct sections for different tasks.
-  - Avoids code duplication and promotes reusability.
+- Code is modular with distinct sections for different tasks.
+- Avoids code duplication and promotes reusability.
 
 ### **Usability**
 
 #### Documentation
 
-  - Clear instructions for setting up the database.
-  - Descriptions of each query and its purpose.
+- Clear instructions for setting up the database.
+- Descriptions of each query and its purpose.
 
 #### Error Handling
 
-  - Ensures data integrity through constraints and validations.
+- Ensures data integrity through constraints and validations.
 
 #### Presentation
 
@@ -236,53 +234,53 @@ Here's what your reviewers will be looking at:
 
 #### **Correlated Subqueries**
 
-#### Implementation
+##### Implementation
 
-  - Correctly implements correlated subqueries to perform complex data retrieval.
-  - The queries accurately reflect scenarios such as finding patrons who have borrowed all books by a particular author.
+- Correctly implements correlated subqueries to perform complex data retrieval.
+- The queries accurately reflect scenarios such as finding patrons who have borrowed all books by a particular author.
 
-#### Functionality
+##### Functionality
 
-  - Demonstrates understanding of correlated subqueries by using them appropriately within the SQL statements.
-  - Ensures queries return correct and expected results.
+- Demonstrates understanding of correlated subqueries by using them appropriately within the SQL statements.
+- Ensures queries return correct and expected results.
 
-#### Code Quality
+##### Code Quality
 
-  - Queries are well-documented with comments explaining the logic.
-  - Maintains readability and follows SQL best practices.
+- Queries are well-documented with comments explaining the logic.
+- Maintains readability and follows SQL best practices.
 
 #### **Additional Constraints**
 
-#### Implementation
+##### Implementation
 
-  - Successfully implements additional constraints like `UNIQUE`, `CHECK`, or `DEFAULT` in the table definitions.
-  - Constraints enhance data integrity and prevent invalid data entries.
+- Successfully implements additional constraints like `UNIQUE`, `CHECK`, or `DEFAULT` in the table definitions.
+- Constraints enhance data integrity and prevent invalid data entries.
 
-#### Functionality
+##### Functionality
 
-  - Validates that constraints are enforced by attempting to insert invalid data and checking for appropriate error messages.
-  - Ensures that data integrity is maintained throughout database operations.
+- Validates that constraints are enforced by attempting to insert invalid data and checking for appropriate error messages.
+- Ensures that data integrity is maintained throughout database operations.
 
-#### Documentation
+##### Documentation
 
-  - Properly documents the constraints and explains their purpose in maintaining database integrity.
+- Properly documents the constraints and explains their purpose in maintaining database integrity.
 
 #### **Performance Optimization**
 
-#### Implementation
+##### Implementation
 
-  - Creates indexes on columns that are frequently used in `WHERE` clauses or join conditions.
-  - Indexes are appropriately chosen to enhance query performance without unnecessary overhead.
+- Creates indexes on columns that are frequently used in `WHERE` clauses or join conditions.
+- Indexes are appropriately chosen to enhance query performance without unnecessary overhead.
 
-#### Functionality
+##### Functionality
 
-  - Demonstrates improved query performance due to indexing.
-  - Provides analysis or evidence of performance enhancement, such as query execution time comparisons before and after indexing.
+- Demonstrates improved query performance due to indexing.
+- Provides analysis or evidence of performance enhancement, such as query execution time comparisons before and after indexing.
 
-#### Code Quality
+##### Code Quality
 
-  - Index creation scripts are well-organized and documented.
-  - Avoids over-indexing which can degrade performance.
+- Index creation scripts are well-organized and documented.
+- Avoids over-indexing which can degrade performance.
 
 ## Resources
 
