@@ -1,3 +1,13 @@
+# New Database
+
+Starting with this story, you will use a new database that closely resembles a real-world database.
+
+Here is the schema of `week02.db` that you could find on [github](https://github.com/alem-platform/sprint-sql/blob/master/assets/week02.db):
+
+![week02_scheme](https://raw.githubusercontent.com/alem-platform/sprint-sql/refs/heads/master/assets/week02_scheme.png)
+
+---
+
 # Join-Jedi
 
 | Expected file |
