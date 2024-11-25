@@ -27,7 +27,6 @@ Write a query that retrieves:
 ## Resources:
 
 - [SQLite Self Join](https://www.sqlitetutorial.net/sqlite-self-join/)
-- [Understanding Self Joins](https://www.w3schools.com/sql/sql_self_join.asp)
 - [SQLite Aggregate Functions](https://www.sqlitetutorial.net/sqlite-aggregate-functions/)
 
 ---
