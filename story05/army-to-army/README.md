@@ -13,4 +13,4 @@ Using the `Playlists`, `Playlist_Track`, and `Tracks` tables, write a query to l
 ## Resources:
 
 - [SQLite JOIN Clause](https://www.sqlite.org/syntax/join-clause.html)
-- [Many-to-Many Relationships](https://www.database.guide/many-to-many-relationship/)
+- [Many-to-Many Relationships](https://en.wikipedia.org/wiki/Many-to-many_(data_model))

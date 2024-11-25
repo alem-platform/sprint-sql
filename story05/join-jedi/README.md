@@ -190,6 +190,6 @@ Write a query that retrieves the `FirstName` and `LastName` of customers from th
 ## Resources:
 
 - [SQLite INNER JOIN](https://www.sqlitetutorial.net/sqlite-inner-join/)
-- [Understanding One-to-Many Relationships](https://www.database.guide/one-to-many-relationship/)
+- [One-to-Many Relationships](https://en.wikipedia.org/wiki/One-to-many_(data_model)/)
 
 ---

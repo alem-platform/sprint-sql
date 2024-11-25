@@ -12,5 +12,4 @@ Write a query to find all artists (`ArtistId`, `Name`) who do not have any album
 
 ## Resources:
 
-- [SQLite LEFT JOIN](https://www.sqlitetutorial.net/sqlite-left-join/)
-- [Finding Unmatched Rows](https://www.sqlshack.com/using-sql-left-join-to-display-unmatched-rows/)
+- [SQLite LEFT JOIN](https://www.w3resource.com/sqlite/sqlite-left-join.php)

@@ -14,7 +14,6 @@ Order the result by the price of the unit in descending order.
 
 ## Resources:
 
-- [SQL JOIN USING Clause](https://www.w3resource.com/sql/joins/perform-a-join-using-clause.php)
 - [SQLite INNER JOIN with USING](https://www.sqlitetutorial.net/sqlite-inner-join/)
 
 ---

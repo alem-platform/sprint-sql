@@ -12,7 +12,6 @@ Create a list of all possible combinations of media types (as `MediaTypeName`) a
 
 ## Resources:
 
-- [Understanding CROSS JOIN](https://www.w3schools.com/sql/sql_join_cross.asp)
-- [SQLite CROSS JOIN](https://www.sqlitetutorial.net/sqlite-cross-join/)
+- [SQlite CROSS JOIN](https://www.w3resource.com/sqlite/sqlite-cross-join.php)
 
 ---
