@@ -2,7 +2,7 @@
 
 | Expected file |
 | ------------- |
-| `basic-delete.sql` |
+| `unbuyed-cleanup.sql` |
 
 Let's remove some unused tracks
 
