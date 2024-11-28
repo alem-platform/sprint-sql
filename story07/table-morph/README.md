@@ -8,6 +8,8 @@
 
 ### Instructions:
 
+Modify the `tracks` table:
+
 - Add a new column `DownloadCount` that should be whole integer number, is required, default value is *0*
 - Add a new column `LastPlayedDate` that would show date and **time** of last played track, is optional, *no default value*
 - Add a column `IsExplicit` that is boolean that shows that track is expiclit or not, is required, default value is *true*
@@ -16,7 +18,7 @@
 
 
 ```sql
-PRAGMA table_info(asdf)
+PRAGMA table_info(tracks)
 ```
 
 ### Resources:
