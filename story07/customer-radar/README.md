@@ -8,7 +8,7 @@ Let's find some victims!
 
 ### Instructions:
 
-Find all customers who have spent more than the average customer spending for customers and have purchased tracks from at least 3 different albums. For each customer show:
+Find all customers who have spent more than the average customer spending and have purchased tracks from at least 3 different albums. For each customer show:
 
 - Customer's first and last name as they are
 - Number of different albums they bought from as `AlbumsCount`
