@@ -4,22 +4,24 @@
 | ------------- |
 | `sales-report.sql` |
 
-Track our monthly sales performance by genre. 
+Track our monthly genre sales performance and find top-performing tracks.
 
 ### Instructions:
 
-Write a query to show:
-- Year and month of the sale delimited by `'-'` as `YearAndMonth`
+For each `YearAndMonth` and `Genre` **(name of the genre)** combination show sales data and find tracks that have equal number of purchases as the most purchased track in this `Genre` for this `YearAndMonth`.
+
+Show:
+- Year and month of `InvoiceDate` separated by `'-'` as `YearAndMonth`
 - Genre name as it is
-- Total sales amount for this genre in this month as `TotalSales`
-- Number of unique customers who bought tracks of this genre that month as `UniqueCustomers`
-- Average unit price for tracks in this genre for this month as `AveragePerSale`
-- Most purchased track name in this genre for this month as `TopTrack`
+- Total amount for this `Genre/YearAndMonth` as `TotalSales`
+- Number of unique customers as `UniqueCustomers`
+- Average price per sale as `AveragePerSale`
+- Name of track with most purchases as `TopTrack`
 
 Note:
-- Round monetary values (`TotalSales`, `AveragePerSale`) to 2 decimal places
-- Group results by `YearAndMonth` and genre
-- Find the track with most purchases in each genre-month combination
+- Round all monetary values to 2 decimal points
+- Group results by `YearAndMonth` and `Genre`
+- Track must have same number of purchases as most purchased track (use subquery)
 - Order by month descending, then by total sales descending
 
 ### Resources:
