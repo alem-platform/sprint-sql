@@ -9,7 +9,7 @@ Find all tracks that cost more than average price.
 Show for each track:
 - Track name
 - Track price
-- Genre name
+- Genre name as `Genre`
 
 Note:
 - Only show tracks with price higher than average price of **ALL** tracks
