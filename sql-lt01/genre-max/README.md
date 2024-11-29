@@ -14,7 +14,7 @@ Show:
 
 Note:
 
-- Track's price should equal the maximum price in its genre (not in the *show* section)
+- Track's price should equal the maximum price highest price in all genres (not in the *show* section)
 - Order by genre name, then by track name all in ascending
 
 <br>
