@@ -7,8 +7,8 @@
 Show which genres are in each playlist.
 
 Show:
-- Playlist name as it is
-- Genre name as it is
+- Playlist name as `Playlist`
+- Genre name as `Genre`
 - Number of tracks from this genre as `TrackCount`
 
 Note:
