@@ -10,7 +10,7 @@ Show:
 - Album title as it is
 - Artist name as `Artist`
 - Number of tracks in album as `TrackCount`
-- Total price of all tracks in album as `TotalPrice`
+- Total price of all tracks in album as `TotalPrice`, rounded to 2 decimals
 
 Note:
 - Include only albums that have at least 5 tracks
