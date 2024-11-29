@@ -4,7 +4,7 @@
 | ------------- |
 | `artist-sales.sql` |
 
-For each artist find their best-selling album by total revenue.
+For each artist find their best-selling album by total revenue **AND THEN:**
 
 Show:
 - Artist name as it is
