@@ -9,7 +9,7 @@ Find tracks that are the most expensive in their genre.
 Show:
 
 - Track name
-- Genre name
+- Genre name as `Genre`
 - Track price
 
 Note:
