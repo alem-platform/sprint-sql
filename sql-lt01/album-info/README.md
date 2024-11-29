@@ -8,7 +8,7 @@ Show information about albums and their artists.
 
 Show:
 - Album title as it is
-- Artist name `Artist`
+- Artist name as `Artist`
 - Number of tracks in album as `TrackCount`
 - Total price of all tracks in album as `TotalPrice`
 
