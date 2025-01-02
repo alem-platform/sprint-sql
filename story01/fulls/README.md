@@ -4,7 +4,7 @@
 | --------------------- |
 | `fulls.sql` |
 
-Create new insights by calculating data within your queries. Let's concoct a full name for each student.
+Create new insights by calculating data within your queries. Let's concatenate a full name for each student.
 
 ### Instructions:
 
@@ -12,6 +12,4 @@ Create new insights by calculating data within your queries. Let's concoct a ful
 
 ### Resources:
 
-- [SQLite Concatenation](https://www.sqlitetutorial.net/sqlite-string-functions/sqlite-concat/)
-
----
+- [SQLite Concatenation](https://sqldocs.org/sqlite-database/sqlite-string-concatenation/)

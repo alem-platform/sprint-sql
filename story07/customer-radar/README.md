@@ -6,7 +6,7 @@
 
 Let's find some victims!
 
-### Instructions:
+## Instructions:
 
 Find all customers who have spent more than the average customer spending and have purchased tracks from at least 3 different albums. For each customer show:
 
@@ -17,7 +17,9 @@ Find all customers who have spent more than the average customer spending and ha
 
 Order results by total spending from highest to lowest.
 
-### Resources
+## Resources
+
 - [SQLite JOIN](https://www.sqlitetutorial.net/sqlite-join/)
+- [SQLite HAVING](https://www.sqlitetutorial.net/sqlite-having/)
 - [SQLite Subqueries](https://www.w3resource.com/sqlite/sqlite-subqueries.php)
 - [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)

@@ -13,5 +13,3 @@ Filter your data using conditions. Let's find students who enrolled after a cert
 ### Resources:
 
 - [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
-
----

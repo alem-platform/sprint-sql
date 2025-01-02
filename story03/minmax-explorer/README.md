@@ -13,4 +13,4 @@ Using the `products` table, write a query to find:
 
 ## Resources:
 
-- [SQLite MIN() and MAX() Functions](https://www.sqlite.org/lang_aggfunc.html#min)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html#sum:~:text=Descriptions%20of%20built%2Din%20aggregate%20functions)

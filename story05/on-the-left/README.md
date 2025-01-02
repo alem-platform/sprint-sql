@@ -4,11 +4,13 @@
 | ------------- |
 | `on-the-left.sql` |
 
-Look at the `LEFT` side of tables!
+Look at the *LEFT* side of tables!
 
 ## Instructions:
 
 Write a query to find all artists (`ArtistId`, `Name`) who do not have any albums in the `Albums` table.
+
+Sort the result by artist's name in descending order.
 
 ## Resources:
 

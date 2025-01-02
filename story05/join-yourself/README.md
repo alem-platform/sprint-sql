@@ -4,7 +4,7 @@
 | ------------- |
 | `join-yourself.sql` |
 
-Did you know that you can join **yourself**? 
+Did you know that you can **join yourself**? 
 
 ## Instructions:
 
@@ -16,7 +16,7 @@ Write a query that retrieves:
 
 > Sort the output by `ManagerLastName` and `ManagerFirstName` in ascending order.
 
-### Expected Output Columns:
+## Expected Output Columns:
 - `ManagerFirstName`: The first name of the manager.
 - `ManagerLastName`: The last name of the manager.
 - `ManagerTitle`: The title of the manager.
@@ -27,6 +27,4 @@ Write a query that retrieves:
 ## Resources:
 
 - [SQLite Self Join](https://www.sqlitetutorial.net/sqlite-self-join/)
-- [SQLite Aggregate Functions](https://www.sqlitetutorial.net/sqlite-aggregate-functions/)
-
----
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)

@@ -13,10 +13,4 @@ Swiftly update records like a ninja. Keep your data current!
 
 ### Resources:
 
-- [SQL UPDATE Statement](https://www.w3schools.com/sql/sql_update.asp)
-
-### Expected Result:
-
-After running your update, Mercedes's email in the table should be `'mercedes.herrera@countess.fr'`.
-
----
+- [SQL UPDATE](https://www.sqlite.org/lang_update.html)

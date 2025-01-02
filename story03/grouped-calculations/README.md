@@ -12,6 +12,6 @@ Using the `products` table, write a query to find the average price and total qu
 
 ## Resources:
 
-- [SQLite GROUP BY Clause](https://www.sqlite.org/lang_select.html#groupby)
+- [SQLite GROUP BY Clause](https://www.sqlitetutorial.net/sqlite-group-by/)
 - [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
 

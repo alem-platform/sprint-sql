@@ -4,7 +4,7 @@
 | ------------- |
 | `using-unicorn.sql` |
 
-Harness the power of the **Using Unicorn!**
+Harness the power of the **using unicorn**!
 
 ## Instructions:
 
@@ -14,6 +14,4 @@ Order the result by the price of the unit in descending order.
 
 ## Resources:
 
-- [SQLite INNER JOIN with USING](https://www.sqlitetutorial.net/sqlite-inner-join/)
-
----
+- [SQLite Flexible JOIN Syntax](https://www.sqlite.org/lang_select.html#:~:text=SQL%20database%20engines.-,9.2.%20Flexible%20join%20syntax,-Standard%20SQL%20has)

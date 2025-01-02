@@ -13,7 +13,7 @@ Write a SQL query that finds "high-performing" employees based on the following 
 3. Their `salary` is higher than the company-wide average `salary`
 4. Order the results by salary in descending order
 
-### Return these columns:
+## Return these columns:
 - `first_name`
 - `last_name`
 - `department_id`
@@ -22,9 +22,5 @@ Write a SQL query that finds "high-performing" employees based on the following 
 
 ## Resources:
 
-- [SQLite Subqueries](https://www.sqlite.org/lang_select.html#subqueries)
+- [SQLite Subqueries](https://www.sqlitetutorial.net/sqlite-subquery/)
 - [SQL Correlated Subqueries](https://www.geeksforgeeks.org/sql-correlated-subqueries/)
-- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
-- [SQLite Comparison Operators](https://www.sqlite.org/lang_expr.html#binaryops)
-
----

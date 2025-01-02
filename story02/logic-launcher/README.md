@@ -8,19 +8,18 @@ Apply logical operators to create complex conditions.
 
 ### Instructions:
 
-Using the `employees` and `departments` tables, create queries to find:
-1. Engineers (any position containing 'Engineer') with salary > 50000 
-2. Employees in Human Resources OR Finance departments (use department names)
-3. Employees NOT in Logistics department who make more than 50000
+Using the `employees` and `departments` tables, create queries to find, **WITHOUT** using `JOIN`:
+1. Engineers (any position containing `'Engineer'`) with salary > 50000 
+2. Employees in `Human Resources` OR `Finance` departments
+3. Employees NOT in `Logistics` department who make more than 50000
 4. Analysts hired in between `2012-01-01` and `2016-12-31` with salary less than `70000`
 
-**In all queries, select the employee's first name, last name, position, salary, department_id and hire_date AND sort them by first name in descending order**
+In all queries, select the employee's first name, last name, position, salary, departamnt id and hire date *AS* they are *AND* sort them by first name in descending order
 
 ### Resources:
 
-- [SQL Logical Operators](https://www.w3schools.com/sql/sql_and.asp)
-- [SQL IN Operator](https://www.w3schools.com/sql/sql_in.asp)
-- [SQL NOT Operator](https://www.w3schools.com/sql/sql_not.asp)
-- [SQL LIKE Operator](https://www.w3schools.com/sql/sql_like.asp)
-
----
+- [SQLite Subqueries](https://www.sqlitetutorial.net/sqlite-subquery/)
+- [SQLite IN Operator](https://www.sqlitetutorial.net/sqlite-in/)
+- [SQLite NOT Operator](https://www.techonthenet.com/sqlite/not.php)
+- [SQLite LIKE Operator](https://www.sqlitetutorial.net/sqlite-like/)
+- [SQLite BETWEEN Operator](https://www.sqlitetutorial.net/sqlite-between/)

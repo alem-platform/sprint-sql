@@ -6,7 +6,7 @@
 
 The bests among others
 
-### Instructions:
+## Instructions:
 
 Help our marketing identify premium tracks that match specific criteria. Find all tracks that are:
 - Longer than 5 minutes
@@ -23,12 +23,13 @@ For each track show:
 
 Note:
 - Compare track price with average price in its genre using subquery
-- Order results by number of purchases descending, then by track price descending
+- Order results by number of purchases descending, then by tracks unit price descending
 
-### Resources:
+## Resources:
 - [SQLite Comparison Operators](https://www.sqlite.org/lang_expr.html)
 - [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html)
 - [SQLite Subqueries](https://www.w3resource.com/sqlite/sqlite-subqueries.php)
+- [SQLite HAVING](https://www.sqlitetutorial.net/sqlite-having/)
 
 <br>
 

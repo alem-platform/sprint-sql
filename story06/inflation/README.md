@@ -6,12 +6,12 @@
 
 No one is safe from it... 
 
-### Instructions:
+## Instructions:
 
 Update all tracks in the `Classical` genre to cost $10.99
 
 > *x10 cost increase!...*
 
-### Resources:
+## Resources:
+
 - [SQLite UPDATE Statement](https://www.sqlitetutorial.net/sqlite-update/)
-- [SQLite WHERE Clause](https://www.sqlitetutorial.net/sqlite-where/)

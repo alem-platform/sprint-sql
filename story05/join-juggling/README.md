@@ -4,7 +4,7 @@
 | ------------- |
 | `join-juggling.sql` |
 
-Showcase your **Join Juggling** skills!
+Showcase your **join juggling** skills!
 
 ## Instructions:
 
@@ -20,8 +20,4 @@ Only include tracks that belong to the **'Rock'** genre and exclude tracks that 
 
 ## Resources:
 
-- [Joining Multiple Tables](https://www.w3schools.com/sql/sql_join.asp)
-- [SQLite INNER JOIN](https://www.sqlitetutorial.net/sqlite-inner-join/)
-- [SQLite WHERE Clause](https://www.sqlitetutorial.net/sqlite-where/)
-
----
+- [SQLite JOIN](https://metanit.com/sql/sqlite/5.2.php)

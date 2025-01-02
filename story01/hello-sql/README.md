@@ -93,19 +93,19 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
    Let's create your first SQL program 
 
-   1. Create a js file named `hello-sql.sql `
+   - Create a sql file named `hello-sql.sql `
 
    ```sh
    echo 'SELECT "Hello SQL!";' > hello-sql.sql
    ```
 
-   2. Test your query
+   - Test your query
 
    ```sh
    sqlite3 welcome.db < hello-sql.sql
    ```
 
-   3. You should see the message on your console
+   - You should see the message on your console
 
    ```sh
    Hello SQL!
@@ -123,12 +123,13 @@ Starting with `story02`, you will work with **prefilled databases** that contain
 
   - Use the exact database files provided to ensure your queries work correctly.
   - Do not modify the data in the prefilled databases unless a task explicitly requires it.
+  - If you did modify it accidentaly or whatever reason you had, you can always redownload the database and use the new one
 
 ---
 
 ## Resources
 
-- [SQL Tutorial by W3Schools](https://www.w3schools.com/sql/)
+- [SQL Wikipedia](https://ru.wikipedia.org/wiki/SQL)
 - [SQLite Documentation](https://sqlite.org/docs.html)
+- [Prefilled Databases](https://github.com/alem-platform/sprint-sql/blob/master/assets)
 
----

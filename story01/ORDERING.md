@@ -1,6 +1,6 @@
 # ORDERING OF THE TASKS
 
-1. welcome
+1. hello-sql
 2. table-genesis
 3. data-drop-in
 4. all-seeing-select

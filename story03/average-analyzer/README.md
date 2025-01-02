@@ -4,12 +4,10 @@
 | ------------- |
 | `average-analyzer.sql` |
 
-Use the `AVG` function to calculate averages.
-
 ## Instructions:
 
-Using the `employees` table, write a query to find the average salary of all employees and how it as `average_salary`
+Using the `employees` table, write a query to find the average salary of all employees and show it as `average_salary`
 
 ## Resources:
 
-- [SQLite AVG() Function](https://www.sqlite.org/lang_aggfunc.html#avg)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html#sum:~:text=Descriptions%20of%20built%2Din%20aggregate%20functions)

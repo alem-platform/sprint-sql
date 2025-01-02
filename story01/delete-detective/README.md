@@ -12,6 +12,4 @@ Investigate and remove records with precision. Be a detective in data deletion.
 
 ### Resources:
 
-- [SQL DELETE Statement](https://www.w3schools.com/sql/sql_delete.asp)
-
----
+- [SQL DELETE](https://www.sqlite.org/lang_delete.html)

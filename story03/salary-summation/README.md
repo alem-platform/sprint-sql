@@ -13,8 +13,6 @@ Using the `employees` table, write a queries to calculate the total salary expen
 
 ## Resources:
 
-- [SQL SUM() Function](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
-- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html#sum)
-- [SQL GROUP BY Statement](https://www.w3schools.com/sql/sql_groupby.asp)
+- [SQLite Aggregate Functions](https://www.sqlite.org/lang_aggfunc.html#sum:~:text=Descriptions%20of%20built%2Din%20aggregate%20functions)
+- [SQLite GROUP BY Clause](https://www.sqlitetutorial.net/sqlite-group-by/)
 
----
