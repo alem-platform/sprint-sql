@@ -31,5 +31,3 @@ Status:
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | customer-artist         | 7     | 400     | [README.md](./customer-artist/README.md)             | ✅    |
 | premium-ones            | 7     | 400     | [README.md](../story07/premium-ones/README.md)       | ✅    |
-
-```
