@@ -18,5 +18,5 @@ Using the `employees` table, create a query that shows:
 ### Resources:
 
 - [SQLite Functions](https://www.sqlite.org/lang_corefunc.html)
-- [SQLite Operators](https://www.sqlite.org/lang_expr.html#:~:text=2.-,Operators%2C%20and%20Parse%2DAffecting%20Attributes,-SQLite%20understands%20these)
+- [SQLite Operators](https://www.sqlite.org/lang_expr.html#operators_and_parse_affecting_attributes:~:text=show-,2.%20Operators%2C%20and%20Parse%2DAffecting%20Attributes,-SQLite%20understands%20these)
 - [SQLite Date Functions](https://www.sqlite.org/lang_datefunc.html)

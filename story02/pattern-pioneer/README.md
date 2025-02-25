@@ -4,7 +4,7 @@
 | ------------- |
 | `pattern-pioneer.sql` |
 
-Master the LIKE operator for advanced pattern matching.
+Master the **LIKE** operator for advanced pattern matching.
 
 ### Instructions:
 

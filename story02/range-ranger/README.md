@@ -4,7 +4,7 @@
 | ------------- |
 | `range-ranger.sql` |
 
-Master `BETWEEN` and `IN` operators for efficient range queries.
+Master the **BETWEEN** and **IN** operators for efficient range queries.
 
 ### Instructions:
 
@@ -14,7 +14,7 @@ Using the `employees` table, create these queries:
 3. Find employees hired **BETWEEN** `'2014-01-01'` and `'2019-12-31'`
 4. Find employees with positions **IN**: `'Warehouse Manager'`, `'Senior Researcher'`, `'Lead Engineer'`
 
-In all queries, select the employee's first name, last name, salary, position and hire date. Sort evbery query in ascending order by `salary`.
+In all queries, select the employee's first name, last name, salary, position and hire date. Sort every query in ascending order by `salary`.
 
 ### Resources:
 

@@ -49,9 +49,9 @@ Master the basics of column selection and manipulation.
 ### Instructions:
 
 Using the `employees` table create three separate SELECT statements:
-1. Select only `first_name` and `last_name` for employees in department_id 1. Sort it by first in ascending order.
+1. Select only `first_name` and `last_name` for employees in department_id 1. Sort it by first name in ascending order.
 2. Select `email` as *contact_info* and `position` as *job_title* for employees who are "Lead Engineer"
-3. Select `first_name` and `last_name` as *given_name* and `salary` as *monthly_income*. Sort it by monthly income in descending order and then by given name in ascending.
+3. Select `first_name` and `last_name` as *given_name* and `salary` as *monthly_income*. Sort it by monthly income in descending order and then by given name in ascending order.
 
 ### Resources:
 
