@@ -1,0 +1,43 @@
+{
+  "dialogue": [
+    {
+      "index": 0,
+      "type": "system_message_wait_keydown",
+      "text": "Press any key to start..."
+    },
+    {
+      "index": 1,
+      "type": "hero_message",
+      "username": "a-J-nx",
+      "text": "hey, {{username}}.\nwhat's up! haven't seen you for a while!",
+      "text_variables": [
+        {
+          "type": "username",
+          "replace": "{{username}}"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "type": "hero_message",
+      "username": "a-J-nx",
+      "text": "it's aj! and i'm so glad to see you here on the backend track!\nthat's the right choice buddy"
+    },
+    {
+      "index": 3,
+      "type": "hero_message_waiting_option",
+      "username": "a-J-nx",
+      "text": "you pretty much know how it works here – besides, this time you won't have hackatons.\nthe overall idea is the same – do a push to learn the new topic quickly and then steadily go on the chosen track.",
+    },
+    {
+      "index": 7,
+      "type": "hero_message",
+      "username": "a-J-nx",
+      "text": "why would you need sql for the backend track?\noh, you will see it yourself soon enough.\nLet's go!"
+    }
+  ]
+}
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
