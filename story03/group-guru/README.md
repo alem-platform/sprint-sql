@@ -6,7 +6,7 @@
 
 ## Instructions:
 
-Using the `employees` table, write a query to find the average salary expenditure per department. Retrieve `department_id` and the average of salaries rounded to two decimal places as `avg_salary`, ordered by `department_id`.
+Using the `employees` table, write a query to find the average salary expenditure per department. Retrieve `department_id` and the average of salaries rounded to two decimal places as `total_salary`, ordered by `department_id`.
 
 ## Resources:
 
