@@ -12,8 +12,8 @@ Using all tables, create a queries that:
 
 1. Displays `department_display` as:
    - If `budget` is above 1,000,000, display `name` in uppercase and append ' - LARGE BUDGET'.
-   - If `budget` is between 500,000 and 1,000,000, display `name` in proper case (first letter of the first word in uppercase) and append ' - Medium Budget'.
-   - If `budget` is below 500,000, display `name` in lowercase and append ' - small budget'.
+   - If `budget` is between 700,000 and 1,000,000, display `name` in proper case (first letter of the first word in uppercase) and append ' - Medium Budget'.
+   - If `budget` is below 700,000, display `name` in lowercase and append ' - small budget'.
    - Sort the query by `department_display` in descending order.
 
 2. Displays `employee_info` where each employee:

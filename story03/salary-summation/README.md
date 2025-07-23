@@ -6,7 +6,7 @@
 
 ## Instructions:
 
-Using the `employees` table, write a queries to calculate the total salary expenditure of the company. Additionally, provide the total salary expenditure per department. The result should include two quries:
+Using the `employees` table, write a queries to calculate the total salary expenditure of the company. Additionally, provide the total salary expenditure per department. The result should include two queries:
 
 1. **Total Salary Expenditure**: The sum of all salaries in the company as `total_salary_expenditure`
 2. **Department-wise Salary Expenditure**: `department_id` and the sum of salaries grouped by each `department_id` as `department_salary_expenditure`
